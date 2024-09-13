@@ -20,6 +20,9 @@ Nikolić S., Ignatov D., Khvorykh G., Limborska S., and Khrunin A., Genome-Wide 
 - ```tabnet``` contains the scripts for performing the experiments with tabular deep learning model tabnet
 - ```pareto``` contains the scripts to select pareto optimal SNPs
 
+## Other files
+- ```dbgap-data-preprocessing.docx``` contains the description of preprocessing dbGaP data used in the research.
+
 ## Hyperparameters
 - Logistic Regression: {'C': 0.01, 'class_weight': 'balanced', 'fit_intercept': True, 'max_iter': 1000, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs'} 
 - GBDT: {'importance_type': 'gain', 'learning_rate': 0.01, 'max_depth': 2, 'n_estimators': 100, 'scale_pos_weight': 0.13212540716612378}
